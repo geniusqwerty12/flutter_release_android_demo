@@ -4,13 +4,15 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The configurations done on this project are on the sections:
 
-A few resources to get you started if this is your first Flutter project:
+Create Icons
+	flutter_launcher_icons
+	// check pubspec.yaml
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Create Keystore
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Create APK
+  key.properties
+  demo_keystore.jks (generated in Android Studio)
+  build.gradle in android/app
